@@ -56,7 +56,7 @@ Get-AzureRMVMImage -Location $location -Publisher $pubName -Offer $offerName -Sk
 #$cred = Get-Credential -Message "Enter a username and password for the virtual machine."
 
 $azureAccountName ="kunho.ko"
-$azurePassword = ConvertTo-SecureString "CitrixOnAzure1!" -AsPlainText -Force
+$azurePassword = ConvertTo-SecureString "CitrixOn" -AsPlainText -Force
 $psCred = New-Object System.Management.Automation.PSCredential($azureAccountName, $azurePassword)
 
 
