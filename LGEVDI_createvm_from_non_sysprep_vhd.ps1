@@ -20,7 +20,7 @@ $imageName = $computername + "Base"
 
 # User credential can be used to login to Azure or can be used to set credential for VM
 #$azureAccountName ="wvdadmin"
-#$azurePassword = ConvertTo-SecureString "corpad@2019!" -AsPlainText -Force
+#$azurePassword = ConvertTo-SecureString "corp" -AsPlainText -Force
 #$psCred = New-Object System.Management.Automation.PSCredential($azureAccountName, $azurePassword)
 
 # Login-AzureRmAccount -Credential $psCred
